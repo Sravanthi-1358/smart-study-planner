@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>      Smart Study Planner</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="stylesheet" href="assets/css/dashboard.css"/>
+  <link rel="stylesheet" href="assets/css/goals.css"/>
+  <link rel="stylesheet" href="assets/css/schedule.css"/>
+  <link rel="stylesheet" href="assets/css/reminders.css"/>
+  <link rel="stylesheet" href="assets/css/progress.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.css" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <img src="assets/images/logo.png" alt="logo" class="logo"/>
+    <h1>Smart Study Planner</h1>
+    <nav>
+      <button onclick="loadPage('dashboard')">Dashboard</button>
+      <button onclick="loadPage('goals')">Goals</button>
+      <button onclick="loadPage('schedule')">Schedule</button>
+      <button onclick="loadPage('reminders')">Reminders</button>
+      <button onclick="loadPage('progress')">Progress</button>
+    </nav>
+  </header>
+
+  <main id="content"></main>
+
+  <footer>
+    <p>© 2025 Smart Study Planner | Boost Your Productivity 🚀</p>
+  </footer>
+
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/task_manager.js"></script>
+  <script src="assets/js/reminder_manager.js"></script>
+  <script src="assets/js/progress_tracker.js"></script>
+  <script src="assets/js/timer_service.js"></script>
+  <script src="assets/js/ui/dashboard.js"></script>
+  <script src="assets/js/ui/goals_page.js"></script>
+  <script src="assets/js/ui/schedule_page.js"></script>
+  <script src="assets/js/ui/reminders_page.js"></script>
+  <script src="assets/js/ui/progress_page.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+</body>
+</html>

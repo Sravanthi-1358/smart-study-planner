@@ -1,0 +1,49 @@
+.goals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.goal {
+  padding: 10px;
+  border-left: 5px solid #4a90e2;
+  background: white;
+  border-radius: 5px;
+}
+#goalsList {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#goalsList li {
+  background: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#goalsList li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.goal-actions button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-actions button:first-child {
+  background: #28a745;
+  color: white;
+}
+
+.goal-actions button:last-child {
+  background: red;
+  color: white;
+}

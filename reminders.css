@@ -1,0 +1,36 @@
+.reminders {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reminder-list {
+  margin-top: 15px;
+}
+
+.reminder-item {
+  background: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reminder-item input {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.reminder-item button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reminder-item button:hover {
+  background: #357abd;
+}

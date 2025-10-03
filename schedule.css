@@ -1,0 +1,59 @@
+.schedule {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+#calendar {
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.task-input {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.task-input input, .task-input button {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.task-input button:hover {
+  background: #357abd;
+}
+
+#taskList {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  padding: 8px;
+  background: #f8f8f8;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#taskList button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
